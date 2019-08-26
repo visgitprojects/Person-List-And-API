@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* Listpersons */
+
+.list-persons {
+    padding-top: 60px;
+}
+
+.person-list {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.person-list-item {
+    padding: 20px;
+    background: white;
+    display: flex;
+}
+
+@media (min-width: 600px) {
+    .person-list-item {
+        margin: 20px;
+        border: 1px solid #d5d8df;
+        border-radius: 4px;
+    }
+}
+.grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+.person-avatar {
+    width: 65px;
+    height: 100px;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.person-details {
+    padding-left: 20px;
+    border-left: 1px solid #eee;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .person-details p {
+        margin: 0;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+

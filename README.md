@@ -16,3 +16,5 @@ Planned future enhancements
 • Replace images with appropriately sized image
 • CDN for images
 • Labels for person details
+• Additional responsive ui css for phone sizing
+

@@ -5,3 +5,14 @@ Gets a person list from an Web API that is populated from entity framework.  Sea
 ![Image of Search on Last name and First Name](PersonAPI/PersonAPI/Content/Examples/searchbylastnameandfirstnameresults.JPG)
 
 Specifics about connection string and the entity framework seeding in the visual studios project readme. 
+
+Planned future enhancements
+⋅⋅*Add search call to API
+  ⋅⋅*Queryable search call with Odata? 
+⋅⋅*Remove and/or replace asp.net nav with react 
+⋅⋅*Feature to add user
+⋅⋅*Feature to delete user
+⋅⋅*Feature to edit user
+⋅⋅*Replace images with appropriately sized image
+⋅⋅*CDN for images
+⋅⋅*Labels for person details

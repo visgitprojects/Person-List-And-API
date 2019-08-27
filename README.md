@@ -17,4 +17,5 @@ Planned future enhancements
 • CDN for images
 • Labels for person details
 • Additional responsive ui css for phone sizing
+• Additional unit and UI tests 
 

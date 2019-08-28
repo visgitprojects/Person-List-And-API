@@ -5,7 +5,7 @@ Gets a person list from an Web API that is populated from entity framework.  Sea
 Extract the project from the zip file. 
 Trying to run the project from the zip file will not load it properly. 
 
-Run in visual studio as debug.  (Publish version would have to be hosted and the API url updated in the react portion of the code.)
+Run in visual studio as debug.  (Published version would have to be hosted and the API url updated in the react portion of the code.)
 
 You may need to run a nuget package restore.
   
@@ -17,7 +17,7 @@ Update the sql connection string in the web.config to the appropriate server.
 
 **DON'T SET IT TO AN EXISTING DB IT WILL DROP AND RECREATE IT IN ORDER TO CREATE AND SEED THE TABLE WITH DATA**
 
-If you are not using windows authentication in the sql connection, you will need to make sure the server you are connection to has Sql Server and Windows Authentication mode selected
+If you are not using windows authentication in the sql connection, you will need to make sure the server you are connecting to has Sql Server and Windows Authentication mode selected
 in the server properties under Security. 
 
 ### In the web config in personapi

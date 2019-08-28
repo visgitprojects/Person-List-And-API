@@ -33,6 +33,13 @@ To run the tests the app.config in the test library will need to be updated as w
 
 To host on IIS you would need to publish the project as a release version. Then set IIS to the publisher files, setup the app pool/bindings etc. You would then need to update the react.js to the new api url. 
 
+### Discovered Issue
+
+There appears to be a problem with the help page generation either when going to a previous version of .net framework or a previous version of Microsoft Visual Studios. The entire HelpPage folder can be deleted from PersonAPI/PersonAPI/Areas 
+Which should allow the search page and API to run normally.  The API tab in the navigation will not longer be available but the api itself is still navigable via the url 
+
+*Will remove the bad nav link and generated help pages tonight 8/28*
+
 ![Image of the Initial Search Page](https://github.com/visgitprojects/Person-List-And-API/blob/master/PersonAPI/PersonAPI/Content/Examples/initiallist.JPG)
 ![Image of Search on Last name and First Name](PersonAPI/PersonAPI/Content/Examples/searchbylastnameandfirstnameresults.JPG)
 
